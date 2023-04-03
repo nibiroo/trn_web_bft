@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  postgres:
+    container_name: trn_inventory_postgres
+    build:
+      context: ./postgres/
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'pg-data:/var/lib/postgresql'
+volumes:
+  pg-data: null
