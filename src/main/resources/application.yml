@@ -3,7 +3,7 @@ spring:
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/db_inventory
+    url: jdbc:postgresql://localhost:5432/db_bft_inventory
     username: bft_user
     password: bft_pass
   # JPA properties
